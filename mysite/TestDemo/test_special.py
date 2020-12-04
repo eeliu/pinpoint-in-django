@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+from pinpoint.common import PinpointCommonPlugin
+
+
+class Special(object):
+    @PinpointCommonPlugin( __name__)
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    @PinpointCommonPlugin( __name__)
+    def common_func(self):
+        return "%s is %d years old." % (self.name, self.age)
