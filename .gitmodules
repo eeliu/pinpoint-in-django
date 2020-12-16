@@ -1,0 +1,3 @@
+[submodule "django-example-todo"]
+	path = django-example-todo
+	url = https://github.com/tokibito/django-example-todo.git
